@@ -11,7 +11,6 @@ interface IProps {
 
 const props = withDefaults(defineProps<IProps>(), {
   content: 'placeholder',
-  isHidden: false,
   flipDuration: 300
 })
 
